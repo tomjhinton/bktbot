@@ -7,7 +7,7 @@ verify_ssl = true
 
 [packages]
 textgenrnn = "*"
-tensorflow = "*"
+tensorflow = "1.5"
 keras = "*"
 tweepy = "*"
 asyncio = "*"

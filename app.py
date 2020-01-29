@@ -22,7 +22,7 @@ def tweety():
     api.update_status(textgen.generate(max_gen_length=150, temperature=0.2, return_as_list=True)[0])
 
 
-    time.sleep(1800)
+    time.sleep(300)
     tweety()
 
 
